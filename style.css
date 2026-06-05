@@ -8,9 +8,10 @@
   height: 80vh;
   
   background-image: url("assets/img/bg.jpeg");
-  /*background-size: cover;
-  background-position: center;*/
+  background-size: 1000px,100vw;
+  background-position: center center;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 /* dark overlay */
@@ -22,4 +23,11 @@
   inset: 0;   /* shortcut for top:0 left:0 right:0 bottom:0 */
   background: rgba(0, 0, 0, 0.4);
   opacity: 0,44;
+}
+nav{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
 }
