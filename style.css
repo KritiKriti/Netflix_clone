@@ -44,5 +44,6 @@ nav img{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
+  color: white;
+  position: relative;
 }
